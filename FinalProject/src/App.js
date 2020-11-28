@@ -1,25 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import axios from "axios";
+import React, { Component } from "react";
+import Card from "./components/Card";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    users: [],
+  };
+
+  componentDidMount() {
+    axios
+    .get("https://jsonplaceholder.typicode.com/users")
+    //.get("https://indonesia-covid-19.mathdro.id/api")
+    //.then((response) => console.log(response.data));
+    .then((response) => this.setState({users: response.data}));
+  }
+
+  render() {
+    return (
+      <>
+      {this.state.users.map((item) => {
+        return (
+        <Card
+         name={item.name} 
+         username={item.username}
+         email={item.email} 
+         phone={item.phone}
+        />
+        );
+      })}
+      </>
+    );
+  }
 }
+
 
 export default App;
