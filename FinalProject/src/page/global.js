@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Card from "../components/Card";
+import World from "../components/imageWorld"
 
 
 const Global = () => {
@@ -22,6 +23,7 @@ const Global = () => {
   return (
     <div className="container">
       <h2>Global Case</h2>
+      <World/>
       <Card confirm={world.confirm} recovered={world.recovered} death={world.death} />
       <br />
       <br />

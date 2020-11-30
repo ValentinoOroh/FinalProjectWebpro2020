@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import Card from "../components/Card"
+import Indo from "../components/Image"
 
 const Indonesia =()=> {
   const [indo, setIndo] = useState({confirm:NaN,death:NaN,recovered:NaN})
@@ -22,10 +23,12 @@ const Indonesia =()=> {
   return (
     <div className='container'>
       <h2>Indonesia Case</h2>
+      <Indo/>
       <Card 
       confirm={indo.confirm}
       recovered={indo.recovered}
       death={indo.death} />
+      
     </div>
   );
 }

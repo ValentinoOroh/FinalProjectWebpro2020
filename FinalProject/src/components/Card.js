@@ -25,6 +25,7 @@ const Card = ({ confirm, recovered, death }) => {
             </div>
             
         </div> 
+        
     )
 };
 

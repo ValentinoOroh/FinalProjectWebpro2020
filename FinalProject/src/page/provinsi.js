@@ -16,7 +16,7 @@ const Provinsi =()=> {
 
   return (
     <div className='container'>
-      <h1>Province</h1>
+      <h1>Province in Indonesia</h1>
       <h3>The number of cases in each province</h3>
       <div className='container'>
         <Table prov={prov} />

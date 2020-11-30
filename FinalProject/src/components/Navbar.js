@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom'
 
 
+
 const navbar = () => {
   return (
-      
+      <div>
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <Link to='/' className="navbar-brand">COVID-19</Link>
@@ -20,7 +21,7 @@ const navbar = () => {
               <Link to='/indonesia' className="nav-link">Indonesia</Link>
             </li>
             <li className="nav-item">
-              <Link to='/provinsi' className="nav-link">Province</Link>
+              <Link to='/provinsi' className="nav-link">Province in Indonesia</Link>
             </li>
             
           </ul>
@@ -31,9 +32,10 @@ const navbar = () => {
             <font color="white">WELCOME TO MY SITE</font>
         </marquee>
     </font>
+
     
     </div> 
-    
+    </div>
   );
 }
 
