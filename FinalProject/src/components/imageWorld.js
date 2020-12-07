@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React, {Component} from 'react'
 
 export default class World extends Component {
@@ -5,7 +6,7 @@ export default class World extends Component {
     state={
         img: [
             
-            "https://www.insurance-canada.ca/wp-content/uploads/2020/04/airww_covid19__04012020_map_full.jpg",
+            "http://pngimg.com/uploads/world_map/world_map_PNG11.png",
            ]
     }
 
