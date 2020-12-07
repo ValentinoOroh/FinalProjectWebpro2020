@@ -1,8 +1,12 @@
-import '../Sound/lagu.mpeg';
+import L from './Video/L.mp3';
 
 const Sound = () =>{
     return(
-        <div> </div>
+        
+        <audio  controls autoPlay>
+            <source src={L} type="audio/mp3"/>
+            
+            </audio>
     )
 }
 

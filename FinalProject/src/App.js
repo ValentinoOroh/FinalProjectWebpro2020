@@ -9,10 +9,14 @@ import Navbar from './components/Navbar';
 
 
 
+
+
 function App() {
   return (
     <div>
       <Navbar />
+ 
+     
       <Switch>
         <Route exact path='/' component={global}/>
         <Route path='/indonesia' component={indonesia}/>
@@ -21,6 +25,7 @@ function App() {
         
         
       </Switch>
+     
     </div>
   );
 }

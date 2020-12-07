@@ -4,6 +4,7 @@ import Card from "../components/Card";
 import World from "../components/imageWorld"
 
 
+
 const Global = () => {
   const [world, setWorld] = useState({confirm:NaN,death:NaN,recovered:NaN})
 
@@ -22,6 +23,7 @@ const Global = () => {
 
   return (
     <div className="container">
+      
       <h2>Global Case</h2>
       <World/>
       <Card confirm={world.confirm} recovered={world.recovered} death={world.death} />

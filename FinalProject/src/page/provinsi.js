@@ -3,6 +3,7 @@ import axios from 'axios'
 import Table from '../components/Table'
 
 
+
 const Provinsi =()=> {
   const [prov, setProv] = useState([])
 
@@ -15,7 +16,10 @@ const Provinsi =()=> {
   })
 
   return (
+  
+    
     <div className='container'>
+      
       <h1>Province in Indonesia</h1>
       <h3>The number of cases in each province</h3>
       <div className='container'>

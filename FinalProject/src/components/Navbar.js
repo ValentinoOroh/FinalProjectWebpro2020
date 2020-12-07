@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom'
+import Sound from './Sound'
+
 
 
 
@@ -29,12 +31,13 @@ const navbar = () => {
       </nav>
       <font size="5">
         <marquee bgcolor="black" scrollamount="5" direction="right" behavior="alternate">
-            <font color="white">WELCOME TO MY SITE</font>
+            <font color="white">WELCOME TO CORONA TRACKER SITE by : Valentino Oroh</font>
         </marquee>
     </font>
 
     
     </div> 
+    <Sound/>
     </div>
   );
 }

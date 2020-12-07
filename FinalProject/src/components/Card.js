@@ -3,7 +3,7 @@ import { formatter } from '../utils/formatNumber'
 
 const Card = ({ confirm, recovered, death }) => {
     return (
-        
+        <div>
         <div className='row card-columns'>
             <div className="card text-white text-center bg-warning w-25">
                 <div className="card-header"><h3 className='card-title'>Confirmed</h3></div>
@@ -25,6 +25,8 @@ const Card = ({ confirm, recovered, death }) => {
             </div>
             
         </div> 
+       
+        </div>
         
     )
 };
