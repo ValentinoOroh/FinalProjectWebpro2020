@@ -3,7 +3,7 @@ import L from './Video/L.mp3';
 const Sound = () =>{
     return(
         
-        <audio  controls autoPlay>
+        <audio   autoPlay>
             <source src={L} type="audio/mp3"/>
             
             </audio>
