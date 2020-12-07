@@ -5,8 +5,8 @@ export default class World extends Component {
     state={
         img: [
             
-            "https://e7.pngegg.com/pngimages/80/607/png-clipart-world-map-cartography-world-map-miscellaneous-world.png"
-        ]
+            "https://www.insurance-canada.ca/wp-content/uploads/2020/04/airww_covid19__04012020_map_full.jpg",
+           ]
     }
 
 
@@ -15,7 +15,7 @@ render() {
 
     return (
         <div>
-            <img src={this.state.img[num]} alt="header-image"/>
+            <img src={this.state.img[num]} alt="header-image" width="870px" height="319"/>
         </div>
         
     )

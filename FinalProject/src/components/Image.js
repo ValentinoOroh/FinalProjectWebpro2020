@@ -4,8 +4,8 @@ export default class Indo extends Component {
 
     state={
         img: [
-            
-            "https://www.touropia.com/gfx/b/2019/08/indonesia.png",
+      
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_map_of_Indonesia.svg/1280px-Flag_map_of_Indonesia.svg.png",
             
         ]
     }
@@ -16,7 +16,7 @@ render() {
 
     return (
         <div>
-            <img src={this.state.img[num]} alt="header-image"/>
+            <img src={this.state.img[num]} alt="header-image" width="870px" />
         </div>
         
     )

@@ -26,11 +26,8 @@ const Global = () => {
       
       <h2>Global Case</h2>
       <World/>
+      < br/>
       <Card confirm={world.confirm} recovered={world.recovered} death={world.death} />
-      <br />
-      <br />
-      
-      
     </div>
   );
 };

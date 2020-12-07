@@ -24,6 +24,7 @@ const Indonesia =()=> {
     <div className='container'>
       <h2>Indonesia Case</h2>
       <Indo/>
+      <br/>
       <Card 
       confirm={indo.confirm}
       recovered={indo.recovered}
