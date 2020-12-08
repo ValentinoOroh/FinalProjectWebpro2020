@@ -17,7 +17,7 @@ const Provinsi =()=> {
 
   return (
   
-    
+    <center>
     <div className='container'>
       
       <h1>Province in Indonesia</h1>
@@ -26,6 +26,7 @@ const Provinsi =()=> {
         <Table prov={prov} />
       </div>
     </div>
+    </center>
   );
 }
 

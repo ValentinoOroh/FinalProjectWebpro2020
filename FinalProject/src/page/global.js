@@ -22,13 +22,13 @@ const Global = () => {
   });
 
   return (
-    <div className="container">
+    <center><div className="container">
       
       <h2>Global Case</h2>
       <World/>
       < br/>
       <Card confirm={world.confirm} recovered={world.recovered} death={world.death} />
-    </div>
+    </div></center>
   );
 };
 

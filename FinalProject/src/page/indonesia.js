@@ -21,6 +21,7 @@ const Indonesia =()=> {
 
   
   return (
+    <center>
     <div className='container'>
       <h2>Indonesia Case</h2>
       <Indo/>
@@ -31,6 +32,7 @@ const Indonesia =()=> {
       death={indo.death} />
       
     </div>
+    </center>
   );
 }
 

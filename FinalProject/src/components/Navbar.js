@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-distracting-elements */
 import { Link } from 'react-router-dom'
 import Sound from './Sound'
 
