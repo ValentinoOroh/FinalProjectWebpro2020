@@ -21,7 +21,7 @@ function App() {
         <Route exact path='/' component={global}/>
         <Route path='/indonesia' component={indonesia}/>
         <Route path='/provinsi' component={provinsi}/>
-        <Route path='/country/:id' component={country}/>
+       
         
         
       </Switch>
